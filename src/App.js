@@ -14,6 +14,9 @@ function App() {
   return (
     <div className='App'>  
       <h1>{item}</h1>
+      <form> 
+        <input type='texs'></input>
+      </form>
       <br />
       <button onClick={() => setItem(item + 1)}> + </button>
       <div>
